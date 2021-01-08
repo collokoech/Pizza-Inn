@@ -1,0 +1,65 @@
+
+
+.text h3,p
+{
+	color: white;
+}
+#collapseExample ul
+{
+	text-align: center;
+	left:20%;
+}
+#collapseExample li
+{
+	padding: 4px;
+	color: black;
+    margin:5px;
+    border:2px solid black;
+	list-style-type: none;
+	display: inline-block;
+	border-radius: 3px;
+}
+#collapseExample li:hover
+{
+background-color: gray;
+cursor: pointer;
+color: white;
+}
+
+
+#navbarNav li a
+{
+	margin-right: 10px;
+	border:1px solid white;
+    border-radius: 4px;
+}
+
+#navbarNav li a:hover
+{
+	color: #FE4119;
+	border-color: #FE4119;
+}
+
+.card p
+{
+	color: black;
+}
+
+.card-body li
+{
+	list-style-type: none;
+	display: inline;
+	padding: 5px;
+	margin: 5px;
+}
+
+.card-body li:hover
+{
+	cursor: pointer;
+	color: #FE4119;
+}
+
+.card-body .form-group
+{
+	width: 50%;
+}
