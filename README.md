@@ -6,7 +6,7 @@
 -Collins Cheruiyot Koech.
 
 ## Project Description
--This is a rare web that shows collins favorites and skills.
+-This is a web that eases the delivery of pizza to customers and their own convinience time.
  ## Technologies used
  -HTML and CSS
  -JavaScript
