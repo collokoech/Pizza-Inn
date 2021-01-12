@@ -1,6 +1,6 @@
 # Delicious Pizza Inn
 
-#### It is a web site that shows everything about me and what I love the most.
+#### It is a web site that enables customers get their pizza in time.
 
 #### Contributors
 -Collins Cheruiyot Koech
