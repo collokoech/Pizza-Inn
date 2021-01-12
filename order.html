@@ -1,165 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery 3.5.1.js"></script>
+    <script src="bootstrap.css"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+    <script src="script.js" async></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Delicious Pizza Inn</title>
+</head>
+<body>
+    <header>
+    <div class="overlay">
+        <nav>
+            
+            <ul>
+                <li>  <a href="./index.html">Home</a> </li>
+                <li><a href="./order.html">About</a></li>
+                <li class="order">
+                    <a href="./order.html">
+                    <ion-icon name="basket"></ion-icon>order<span>0</span>
+                    </a>
 
- <link rel="stylesheet" href="css/flaticon.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
- 	<link rel="stylesheet" href="style.css">
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-    <title>Place Order!</title>
-  </head>
-  <body>
-  <div class="container">
-  <!-- start of nav -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	  
-	   <a class="navbar-brand" href="index.html" style="color: #FE4119"><span class="flaticon-pizza-1 mr-1"></span>Pizza<br><small>Delicous</small></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item " >
-	        <a class="nav-link" href="index.html">Home</span></a>
-	      </li>
-	      <li class="nav-item active" >
-	        <a class="nav-link" href="order.html">Order</a>
-	      </li>
-	    	     
-	    </ul>
-	  </div>
+    </header>
 
-	</nav>
-  <!-- end of nav -->
+    <div id="welcome">
+        <p>Delicious</p>
+        <p>Pizza Inn</p>
+    </div>
+       
+   <h1>We Cook Your Desired Pizza</h1>
 
-<!-- start of card -->
-  <div class="card text-left">
-  <div class="card-header">
-    Pizza Inn 
-    <div style="font-size: 12px;float: right;">
+    <div id="About">
 
-		 <button type="button" class="btn btn-light">
-		  Pizzas Ordered : <span class="badge badge-light" id="displayPizzasOrdered">0</span>
-		</button>
+        <p><strong>Health and safety: Mask required · Staff wear masks · Staff get temperature checks · Staff required to disinfect surfaces between visits </strong></p>
+        Pizza Chef responsibilities include preparing pizza dough, slicing and chopping toppings like vegetables and meats and executing customers' orders considering special requests. To be successful in this role, you should have experience with various pizza types and be available to work during business hours
+            
+            
+        </p>
+    </div>
+    <h5>We offer different Sizes, Crusts and Toppings as below:</h5>
 
-		 <button type="button" class="btn btn-light">
-		   Total Cost Ksh. <span class="badge badge-light" id="displayCost">0</span>
-		</button>
-  </div>
+    <div class="container"> 
 
-  </div>
-  <div id="orderDetails" class="card-body">
-    <h5 class="card-title">Order Details</h5>
+        <div class="img">
+            <img src="/images/pizza-1.jpg"  height="100px"  width="150px" alt="">
+            <h3>Small</h3>
+            <h3>crispy</h3>
+            <h3>Ksh. 1020</h3>
+            <a class="order-now order1" href="#">order-now</a>
+        </div>
+        <div class="img">
+            <img src="/images/pizza-2.jpg"  height="100px"  width="150px" alt="">
+            <h3>Small</h3>
+            <h3>stuffed</h3>
+            <h3>Ksh. 950</h3>
+            <a class="order-now order2" href="#">order-now</a>
+        </div>
+        <div class="img">
+            <img src="/images/pizza-3.jpg"  height="100px"  width="150px" alt="">
+            <h3>Small</h3>
+            <h3>glutenfree</h3>
+            <h3>Ksh. 870</h3>
+            <a class="order-now order3" href="#">order-now</a>
+        </div> 
+        <div class="img">
+            <img src="/images/pizza-4.jpg"  height="150px"  width="200px" alt="">
+            <h3>Medium</h3>
+            <h3>stuffed</h3>
+            <h3>Ksh. 1630</h3>
+            <a class="order-now order4" href="#">order-now</a>
+        </div>
+        
+        <div class="img">
+            <img src="/images/pizza-5.jpg"  height="150px"  width="200px" alt="">
+            <h3>Medium</h3>
+            <h3>Crispy</h3>
+            <h3>Ksh. 1315</h3>
+            <a class="order-now order5" href="#">order-now</a>
+        </div>  
+        <div class="img">
+            <img src="/images/pizza-6.jpg"  height="150px"  width="200px" alt="">
+             <h3>Medium</h3>
+             <h3>GlutenFree</h3>
+            <h3>Ksh. 1200</h3>
+            <a class="order-now order6" href="#">order-now</a>
+        </div>   
+        <div class="img">
+            <img src="/images/pizza-7.jpg"  height="200px"  width="300px" alt="">
+            <h3>Large</h3>
+            <h3>Crispy</h3>
+            <h3>Ksh. 2265</h3>
+            <a class="order-now order7" href="#">order-now</a>
+        </div> 
+        <div class="img">
+            <img src="/images/pizza-8.jpg"  height="200px"  width="300px" alt="">
+            <h3>Large</h3>
+            <h3>GlutenFree</h3>
+            <h3>Ksh. 1890</h3>
+            <a class="order-now order8" href="#">order-now</a>
+        </div> 
 
-       	  <div class="form-group">
-       	  <label for="exampleFormControlInput1">Pizza Size</label>
-		  <select class="form-control" id="mySize">
-		  	<option disabled="disabled" selected value="">Select Size</option>
-		    <option value="0">Small</option>
-		    <option value="1">Medium</option>
-		    <option value="2">Large</option>
-		  </select>
-		</div>
-		<div class="form-group">
-		   <label for="exampleFormControlInput1">Crust</label>
-		   <select id="myCrust" class="form-control">
-		   	<option disabled="disabled" selected value="">Select Crust</option>
-		    <option value="0">Crispy</option>
-		    <option value="1">Stuffed</option>
-		    <option value="2">Gluten-free</option>
-		   </select>
-		</div>
-		<div class="form-group">
-		   <label for="exampleFormControlInput1">Topping</label>
-		   <select id="myTopping" class="form-control">
-		   	<option disabled="disabled" selected value="">Select Topping</option>
-		    <option value="0">BBQ sauce</option>
-		    <option value="1">Pepperoni</option>
-		    <option value="2">Hawaiian</option>
-		   </select>
-		</div>
+        <div class="img">
+            <img src="/images/pizza-9.jpg"  height="200px"  width="300px"  alt="">
+            <h3>Large</h3>
+            <h3>stuffed</h3>
+            <h3>Ksh. 2625</h3>
+            <a class="order-now order9" href="#">order-now</a>
+        </div> 
 
-        <div class="form-group">
-        	  <button class="btn btn-primary" onclick="myFunction()">Continue Shopping</button>
-             <button class="btn btn-success" onclick="myFunction()">Checkout</button>
-		 </div>	
-</div>
+    </div>
+    <div class="order-box">
+      <div class="order">
+          <i class="fa fa-close"></i>
+          <h1>order</h1>
+          <table></table>
+      </div>
+    <p></p>
+    </div>
 
-  <!-- End of card -->
-  
-        <p id="demo"></p>
-    
-  </div>
-  <div class="card-footer text-muted text-center">
-    Welcome again
-  </div>
-</div>
-   
-  <!-- end of card -->
-
-</div>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-
-<script>
- var ordercounter = 0;
-
-function myFunction() 
-{
- 
-
-  var size = document.getElementById("mySize").value;
-  var crust = document.getElementById("myCrust").value;
-  var topping = document.getElementById("myTopping").value;
-
-
-	  // Constructor function for Pizza objects
-	function Pizza(size, crust, topping) 
-	{
-	  this.pizzaSize = size;
-	  this.crust = crust;
-	  this.topping = topping;
-	}
-	// Create a piza object
-   var myOrder = new Pizza(size, crust, topping);
-
-   var sizesCosts =[600,1200,1800];
-   var sizePrice = sizesCosts[myOrder.pizzaSize];
-
-   var crustsCosts =[200,340,350];
-   var crustPrice = crustsCosts[myOrder.crust];
-
-   var toppingsCosts =[390, 450, 400];
-   var toppingPrice = toppingsCosts[myOrder.topping];
-    
-   var totalCost = sizePrice+crustPrice+toppingPrice;
-
-   var pizzaSize = ['Small','Medium','Large'];
-   var crust = ['Grisp','Stuffed','Glutten Free'];
-   var topping = ['BBQ Sauce','Pepperoni','Hawaiian'];
-
-   document.getElementById("demo").innerHTML = pizzaSize[myOrder.pizzaSize] +" : "+ sizePrice + "<br>"+ crust[myOrder.crust] + " : " +crustPrice+" <br>  "+ topping[myOrder.topping] + " : " +  toppingPrice;
-    //document.getElementById("demo").innerHTML = myOrder.pizzaSize +" : " sizePrice;
-   // document.getElementById("demo").innerHTML = "Total Cost : Ksh "+totalCost;
-
-   document.getElementById("displayCost").innerHTML = totalCost;
-
-   
- var orderDetails  = '<table class="table">  <thead> <tr><th scope="col">#</th><th scope="col">Item</th><th scope="col">Cost</th></tr></thead>      <tbody>  <tr><th scope="row">1</th> <td>myOrder.pizzaSize </td><td>sizePrice</td></tr> <tr> <th scope="row">2</th><td>myOrder.crust</td><td>crustPrice</td> </tr><tr><th scope="row">3</th><td>myOrder.topping</td> <td>toppingPrice</td> </tr></tbody</table>';
-
-   // document.getElementById("orderDetails").innerHTML = orderDetails;
-
-
-}
-
-</script>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-  </body>
+    <div class="products-container">
+        <div class="product-header">
+        <h5 class="product-title">PRODUCT</h5>
+        <h5 class="price">PRICE</h5>
+        <h5 class="quantity">QUANTITY</h5>
+        <h5 class="total">TOTAL</h5>
+     </div>
+        <div class="products">
+            
+        </div>
+</body>
 </html>
