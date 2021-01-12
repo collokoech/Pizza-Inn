@@ -3,7 +3,7 @@
 #### It is a web site that enables customers get their pizza in time.
 
 #### Contributors
--Collins Cheruiyot Koech
+-Collins Cheruiyot Koech.
 
 ## Project Description
 -This is a rare web that shows collins favorites and skills.
